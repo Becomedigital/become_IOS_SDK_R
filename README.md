@@ -32,7 +32,7 @@ La SDK requiere que dentro de las configuraciones `info.plis`, se encuentre una 
         import  BecomeDigitalV
 
 
-**2. En el método `startSDKAction ()` de su `ViewController` de aplicación, inicialice Become para la captura de imágenes, se debe asignar el `ItFirstTransaction` como True, puedes utilizar el siguiente fragmento de código:**
+**2. En el método `startSDKAction ()` de su `ViewController` de aplicación, inicialice Become para la captura de imágenes, puedes utilizar el siguiente fragmento de código:**
  
       @IBAction func startSDKAction(_ sender: Any) {
                let dateFormatter = DateFormatter()
